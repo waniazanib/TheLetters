@@ -1,5 +1,7 @@
 # Production Build Output
-venv/
+venv/z
+dist/
+dist-ssr/
 
 # Dependencies
 node_modules/
