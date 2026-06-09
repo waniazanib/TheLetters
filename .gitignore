@@ -1,5 +1,5 @@
 # Production Build Output
-venv/z
+venv/
 dist/
 dist-ssr/
 
