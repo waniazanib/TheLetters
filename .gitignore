@@ -1,0 +1,44 @@
+# Production Build Output
+venv/
+
+# Dependencies
+node_modules/
+
+# Logs & Debugging
+*.log
+npm-debug.log*
+
+# Firebase CLI & Emulator Cache and Configurations
+.firebase/
+firebase-debug-*.log
+firestore-debug-*.log
+ui-debug.log
+firebase-applet-config.json
+firestore.rules
+firebase-blueprint.json
+
+# Environment & Secrets (Keep .env.example tracked)
+.env*
+!.env.example
+
+# IDEs & Editor Configuration
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Configurations
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Diagnostic Coverage
+coverage/
+*.lcov
+

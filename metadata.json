@@ -1,0 +1,6 @@
+{
+  "name": "TheLetters",
+  "description": "A luxury web application for sending beautifully handcrafted sealed letters, scrolls, and vintage envelopes with wax seals and nostalgic delivery options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
