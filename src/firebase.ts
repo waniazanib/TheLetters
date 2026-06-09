@@ -6,10 +6,10 @@
 import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
+import firebaseConfig from '../firebase-applet-config.json';
 
 // Safely load the JSON config using Vite's glob import to prevent build failures on production environments (e.g., Vercel) where the config file is absent.
-const meta = import.meta as any;
-const configFiles = meta.glob('../firebase-applet-config.json', { eager: true });
+const jsonConfig = firebaseConfig;
 const configPaths = Object.keys(configFiles);
 const jsonConfig = configPaths.length > 0 ? (configFiles[configPaths[0]] as any).default : null;
 
